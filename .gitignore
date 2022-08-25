@@ -1,0 +1,5 @@
+
+*.DS_Store
+
+swiftUIPractice.xcodeproj/project.xcworkspace/xcuserdata/*
+swiftUIPractice.xcodeproj/xcuserdata/*
