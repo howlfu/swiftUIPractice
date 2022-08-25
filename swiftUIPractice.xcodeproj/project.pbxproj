@@ -14,6 +14,8 @@
 		63AA365A28ACF22C002A7A61 /* swiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA365928ACF22C002A7A61 /* swiftUIPracticeTests.swift */; };
 		63AA366428ACF22D002A7A61 /* swiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA366328ACF22D002A7A61 /* swiftUIPracticeUITests.swift */; };
 		63AA366628ACF22D002A7A61 /* swiftUIPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA366528ACF22D002A7A61 /* swiftUIPracticeUITestsLaunchTests.swift */; };
+		63AA367C28B75A07002A7A61 /* Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA367B28B75A07002A7A61 /* Screen2.swift */; };
+		63AA367E28B75A4E002A7A61 /* FlowVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA367D28B75A4E002A7A61 /* FlowVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		63AA365F28ACF22C002A7A61 /* swiftUIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AA366328ACF22D002A7A61 /* swiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		63AA366528ACF22D002A7A61 /* swiftUIPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63AA367B28B75A07002A7A61 /* Screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2.swift; sourceTree = "<group>"; };
+		63AA367D28B75A4E002A7A61 /* FlowVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 				63AA364828ACF228002A7A61 /* SwiftUIPracticeApp.swift */,
 				63AA364C28ACF22C002A7A61 /* Assets.xcassets */,
 				63AA364E28ACF22C002A7A61 /* Preview Content */,
+				63AA367D28B75A4E002A7A61 /* FlowVM.swift */,
 			);
 			path = swiftUIPractice;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				63AA364A28ACF228002A7A61 /* LoginView.swift */,
+				63AA367B28B75A07002A7A61 /* Screen2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AA367C28B75A07002A7A61 /* Screen2.swift in Sources */,
 				63AA364B28ACF228002A7A61 /* LoginView.swift in Sources */,
+				63AA367E28B75A4E002A7A61 /* FlowVM.swift in Sources */,
 				63AA364928ACF228002A7A61 /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
